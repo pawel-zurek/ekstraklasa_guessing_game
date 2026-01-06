@@ -10,6 +10,7 @@ export type GuessResult = {
   status: "playing" | "won" | "lost";
   remaining_guesses: number;
   comparison: Comparison;
+  guessed_player: Player;
   player?: Player;
 };
 

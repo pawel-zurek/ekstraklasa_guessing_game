@@ -3,7 +3,7 @@ import { submitGuess, getGameToday } from "../api/client";
 import GuessInput from "../components/GuessInput";
 import GuessTable from "../components/GuessTable";
 import ResultBanner from "../components/ResultBanner";
-import type { GuessResult } from "../types/Game";
+import type { GuessResult, Player } from "../types/Game";
 
 export default function GamePage() {
   const [guesses, setGuesses] = useState<GuessResult[]>([]);
@@ -14,12 +14,20 @@ export default function GamePage() {
     getGameToday();
   }, []);
 
-  async function handleGuess(playerId: number) {
+  async function handleGuess(player: Player) {
     if (status !== "playing") return;
 
-    const result = await submitGuess(playerId, guessNumber);
-    setGuesses([...guesses, result]);
-    setGuessNumber(guessNumber + 1);
+    const result = await submitGuess(player.id, guessNumber);
+
+    setGuesses(prev => [
+      ...prev,
+      {
+        ...result,
+        guessed_player: player,
+      },
+    ]);
+
+    setGuessNumber(prev => prev + 1);
     setStatus(result.status);
   }
 
