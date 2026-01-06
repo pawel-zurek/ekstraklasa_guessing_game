@@ -1,17 +1,33 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { searchPlayers } from "../api/client";
 import type { Player } from "../types/Game";
 
 type Props = {
   onGuess: (player: Player) => void;
   disabled: boolean;
+  remainingGuesses: number;
+  maxGuesses: number;
 };
 
-export default function GuessInput({ onGuess, disabled }: Props) {
+export default function GuessInput({
+  onGuess,
+  disabled,
+  remainingGuesses,
+  maxGuesses,
+}: Props) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Player[]>([]);
+  const [animate, setAnimate] = useState(false);
 
-  async function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+  useEffect(() => {
+    setAnimate(true);
+    const t = setTimeout(() => setAnimate(false), 300);
+    return () => clearTimeout(t);
+  }, [remainingGuesses]);
+
+  async function handleChange(
+    e: React.ChangeEvent<HTMLInputElement>
+  ) {
     const value = e.target.value;
     setQuery(value);
 
@@ -24,54 +40,53 @@ export default function GuessInput({ onGuess, disabled }: Props) {
     setResults(res);
   }
 
+  const danger = remainingGuesses <= 3;
+
   return (
-    <div style={{ position: "relative" }}>
-      <input
-        placeholder="Type a player name..."
-        value={query}
-        onChange={handleChange}
-        disabled={disabled}
-      />
+    <div className="guess-input-wrapper">
+      <div className="input-row">
+        <input
+          className="guess-input"
+          value={query}
+          onChange={handleChange}
+          placeholder="Type a player name..."
+          disabled={disabled}
+        />
+
+        <div
+          className={`guess-counter ${
+            danger ? "danger" : ""
+          } ${animate ? "pulse" : ""}`}
+        >
+          <span className="guess-counter-number">
+            {remainingGuesses ?? maxGuesses}
+          </span>
+          <span className="guess-counter-label">
+            guesses left
+          </span>
+        </div>
+      </div>
 
       {results.length > 0 && (
-  <ul
-    style={{
-      listStyle: "none",
-      padding: 0,
-      margin: 0,
-      border: "1px solid #ccc",
-      position: "absolute",
-      background: "#fff",
-      width: "100%",
-      zIndex: 10,
-      maxHeight: "200px",
-      overflowY: "auto",
-    }}
-  >
-    {results.map((p) => (
-      <li
-        key={p.id}
-        style={{
-          padding: "8px",
-          cursor: "pointer",
-          color: "#000",
-          borderBottom: "1px solid #eee",
-        }}
-        onMouseDown={() => {
-          // 👈 use onMouseDown to avoid input blur issues
-          onGuess(p);
-          setQuery("");
-          setResults([]);
-        }}
-      >
-        <strong>
-          {p.first_name} {p.last_name}
-        </strong>{" "}
-        <span style={{ color: "#666" }}>({p.team})</span>
-      </li>
-    ))}
-  </ul>
-)}
+        <ul className="autocomplete">
+          {results.map((p) => (
+            <li
+              key={p.id}
+              className="autocomplete-item"
+              onMouseDown={() => {
+                onGuess(p);
+                setQuery("");
+                setResults([]);
+              }}
+            >
+              <strong>
+                {p.first_name} {p.last_name}
+              </strong>
+              <span>{p.team}</span>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

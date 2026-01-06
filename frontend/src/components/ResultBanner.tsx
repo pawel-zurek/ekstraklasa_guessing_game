@@ -14,22 +14,22 @@ export default function ResultBanner({
   const last = guesses[guesses.length - 1];
   const player = last.player;
 
+  if (!player) return null;
+
   return (
-    <div className="result-banner">
+    <div className={`result-banner ${status} banner-enter`}>
       <h2>{status === "won" ? "🎉 You won!" : "❌ You lost!"}</h2>
 
-      {player && (
-        <div>
-          <img
-            src={`${API_BASE}/${player.photo}`}
-            alt={`${player.first_name} ${player.last_name}`}
-            width={150}
-          />
-          <p>
-            {player.first_name} {player.last_name} – {player.team}
-          </p>
-        </div>
-      )}
+      <p className="result-text">
+        {status === "won"
+          ? `You were right, the correct player is ${player.first_name} ${player.last_name}.`
+          : `The correct player was ${player.first_name} ${player.last_name}.`}
+      </p>
+
+      <img
+        src={`${API_BASE}/${player.photo}`}
+        alt={`${player.first_name} ${player.last_name}`}
+      />
     </div>
   );
 }

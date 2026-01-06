@@ -3,7 +3,7 @@ export type Comparison = {
   position: boolean;
   country: boolean;
   number: "higher" | "lower" | "equal";
-  birthYear: "higher" | "lower" | "equal";
+  age: "older" | "younger" | "equal";
 };
 
 export type GuessResult = {

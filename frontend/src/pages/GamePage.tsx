@@ -5,13 +5,29 @@ import GuessTable from "../components/GuessTable";
 import ResultBanner from "../components/ResultBanner";
 import type { GuessResult, Player } from "../types/Game";
 
+const MAX_GUESSES = 7;
+
 export default function GamePage() {
   const [guesses, setGuesses] = useState<GuessResult[]>([]);
   const [guessNumber, setGuessNumber] = useState(1);
-  const [status, setStatus] = useState<"playing" | "won" | "lost">("playing");
+
+  // ✅ ALWAYS starts with 7
+  const [remainingGuesses, setRemainingGuesses] =
+    useState<number>(MAX_GUESSES);
+
+  const [status, setStatus] =
+    useState<"playing" | "won" | "lost">("playing");
 
   useEffect(() => {
-    getGameToday();
+    async function loadGame() {
+      const game = await getGameToday();
+
+      // ✅ Only overwrite if backend sends a valid number
+      if (typeof game.remaining_guesses === "number") {
+        setRemainingGuesses(game.remaining_guesses);
+      }
+    }
+    loadGame();
   }, []);
 
   async function handleGuess(player: Player) {
@@ -21,21 +37,26 @@ export default function GamePage() {
 
     setGuesses(prev => [
       ...prev,
-      {
-        ...result,
-        guessed_player: player,
-      },
+      { ...result, guessed_player: player },
     ]);
 
-    setGuessNumber(prev => prev + 1);
+    setGuessNumber(n => n + 1);
+
+    // ✅ submitGuess ALWAYS returns remaining_guesses
+    setRemainingGuesses(result.remaining_guesses);
     setStatus(result.status);
   }
 
   return (
-    <div style={{ maxWidth: 800, margin: "0 auto" }}>
-      <h1>Ekstraklasa Guessing Game</h1>
+    <div className="game-page">
+      <h1 className="title">Ekstraklasa Guessing Game</h1>
 
-      <GuessInput onGuess={handleGuess} disabled={status !== "playing"} />
+      <GuessInput
+        onGuess={handleGuess}
+        disabled={status !== "playing"}
+        remainingGuesses={remainingGuesses}
+        maxGuesses={MAX_GUESSES}
+      />
 
       <GuessTable guesses={guesses} />
 

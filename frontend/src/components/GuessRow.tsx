@@ -1,23 +1,38 @@
-import type { Comparison } from "../types/Game";
+type Props = {
+  label: string;
+  value: string | number;
+  result: boolean | "higher" | "lower" | "equal";
+  isWin: boolean;
+};
 
-function cell(value: any) {
-  let style = {};
-
-  if (value === true || value === "equal") style = { background: "#4caf50" };
-  else if (value === false) style = { background: "#f44336" };
-  else style = { background: "#ff9800" };
-
-  return <td style={style}>{String(value)}</td>;
+function emoji(result: Props["result"], isWin: boolean) {
+  if (isWin) return "✅";
+  if (result === true) return "✅";
+  if (result === false) return "❌";
+  if (result === "equal") return "🟰";
+  if (result === "higher") return "⬆️";
+  return "⬇️";
 }
 
-export default function GuessRow({ comparison }: { comparison: Comparison }) {
+function getClass(result: Props["result"], isWin: boolean) {
+  if (isWin) return "box correct";
+  if (result === true || result === "equal") return "box correct";
+  if (result === false) return "box wrong";
+  return "box close";
+}
+
+export default function GuessRow({
+  label,
+  value,
+  result,
+  isWin,
+}: Props) {
   return (
-    <tr>
-      {cell(comparison.team)}
-      {cell(comparison.position)}
-      {cell(comparison.country)}
-      {cell(comparison.number)}
-      {cell(comparison.age)}
-    </tr>
+    <div className={getClass(result, isWin)}>
+      <div className="box-label">{label}</div>
+      <div className="box-value">
+        {value} {emoji(result, isWin)}
+      </div>
+    </div>
   );
 }
