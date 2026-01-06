@@ -1,0 +1,3317 @@
+{
+    "data": [
+        {
+            "id": "6363",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 11,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:01.064Z",
+                "slug": "daniel-hakans",
+                "status": "active",
+                "first_name": "Daniel",
+                "last_name": "Hakans",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4210",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25465",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6531",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": false,
+                "likes_count": 0,
+                "number": 4,
+                "position": "defender",
+                "published_at": "2025-07-17T11:56:00.091Z",
+                "slug": "joao-moutinho-9e4a3673-32d6-41f0-b98e-279ff5240d23",
+                "status": "active",
+                "first_name": "Joao",
+                "last_name": "Moutinho",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4167",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25456",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6468",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 20,
+                "position": "defender",
+                "published_at": "2025-07-09T13:03:00.145Z",
+                "slug": "robert-gumny",
+                "status": "active",
+                "first_name": "Robert",
+                "last_name": "Gumny",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4431",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25457",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6347",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 41,
+                "position": "goalkeeper",
+                "published_at": "2025-06-16T13:32:03.397Z",
+                "slug": "bartosz-mrozek-8dbb376c-718c-4dbe-acbd-dbfa8f7c1795",
+                "status": "active",
+                "first_name": "Bartosz",
+                "last_name": "Mrozek",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "624",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25452",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6346",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 2,
+                "position": "defender",
+                "published_at": "2025-06-16T13:32:03.390Z",
+                "slug": "joel-pereira-4f6b2212-9f55-425b-9e04-8935bb678f06",
+                "status": "active",
+                "first_name": "Joel",
+                "last_name": "Pereira",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "37",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25458",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6362",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 3,
+                "position": "defender",
+                "published_at": "2025-06-16T13:32:03.520Z",
+                "slug": "alex-douglas-57fbfe66-b312-4732-8143-382f2d5dda10",
+                "status": "active",
+                "first_name": "Alex",
+                "last_name": "Douglas",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4035",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25460",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6350",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 7,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.419Z",
+                "slug": "afonso-sousa-3846c970-2fdf-4b9e-ac0d-5cf47f3ea176",
+                "status": "active",
+                "first_name": "Afonso",
+                "last_name": "Sousa",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "1486",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "33049",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6341",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 10,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.354Z",
+                "slug": "patrik-walemark",
+                "status": "active",
+                "first_name": "Patrik",
+                "last_name": "Walemark",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4234",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25467",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6360",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 23,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.505Z",
+                "slug": "gisli-thordarson-df45799b-7dc0-4500-9e45-f9b2762071cd",
+                "status": "active",
+                "first_name": "Gisli",
+                "last_name": "Thordarson",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4272",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25468",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6343",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 56,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.368Z",
+                "slug": "kornel-lisman-f3a00da7-144d-423b-956f-50d846ac574b",
+                "status": "active",
+                "first_name": "Kornel",
+                "last_name": "Lisman",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4028",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25469",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6345",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 43,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.383Z",
+                "slug": "antoni-kozubal-d5fb81f4-0397-40c2-b6d5-ae5e854c432c",
+                "status": "active",
+                "first_name": "Antoni",
+                "last_name": "Kozubal",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "599",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25470",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6356",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 9,
+                "position": "striker",
+                "published_at": "2025-06-16T13:32:03.474Z",
+                "slug": "mikael-ishak-c26ceffc-d22c-45e6-95d8-7c94adb685e5",
+                "status": "active",
+                "first_name": "Mikael",
+                "last_name": "Ishak",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "27",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25477",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6355",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 19,
+                "position": "striker",
+                "published_at": "2025-06-16T13:32:03.465Z",
+                "slug": "bryan-fiabema",
+                "status": "active",
+                "first_name": "Bryan",
+                "last_name": "Fiabema",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4155",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25478",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6359",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 17,
+                "position": "striker",
+                "published_at": "2025-06-16T13:32:03.498Z",
+                "slug": "filip-szymczak-7c9dbd9b-9055-4819-bb5e-5877cb732d88",
+                "status": "active",
+                "first_name": "Filip",
+                "last_name": "Szymczak",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "1292",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "33087",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6369",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 22,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.566Z",
+                "slug": "radoslaw-murawski-46b487f3-24ce-4177-8459-ac1f0b9c924d",
+                "status": "active",
+                "first_name": "Radosław",
+                "last_name": "Murawski",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "31",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25143",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6368",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 31,
+                "position": "goalkeeper",
+                "published_at": "2025-06-16T13:32:03.558Z",
+                "slug": "krzysztof-bakowski-78a2decc-ec76-4d47-8bbf-01ebee061bfd",
+                "status": "active",
+                "first_name": "Krzysztof",
+                "last_name": "Bąkowski",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "1198",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25453",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6461",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 72,
+                "position": "defender",
+                "published_at": "2025-07-07T10:18:00.160Z",
+                "slug": "mateusz-skrzypczak-d3c2fc47-2447-4883-a089-4dc628ec6539",
+                "status": "active",
+                "first_name": "Mateusz",
+                "last_name": "Skrzypczak",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "582",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25455",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6370",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 16,
+                "position": "defender",
+                "published_at": "2025-06-16T13:32:03.573Z",
+                "slug": "antonio-milic-d2d37fd8-8fbd-4aaf-9270-dc123c8879dd",
+                "status": "active",
+                "first_name": "Antonio",
+                "last_name": "Milić",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "24",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25462",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6372",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 15,
+                "position": "defender",
+                "published_at": "2025-06-16T13:32:03.589Z",
+                "slug": "michal-gurgul-77ad6596-176a-459a-b837-836025fac5b1",
+                "status": "active",
+                "first_name": "Michał",
+                "last_name": "Gurgul",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "2543",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25463",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6365",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 27,
+                "position": "defender",
+                "published_at": "2025-06-16T13:32:03.535Z",
+                "slug": "wojciech-monka-2e723b2d-c662-412a-a19e-1422d1841685",
+                "status": "active",
+                "first_name": "Wojciech",
+                "last_name": "Mońka",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4064",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25464",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6371",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 44,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.582Z",
+                "slug": "tymoteusz-gmur-fe19c690-ca7a-43be-a503-7b2fd0fdcf5e",
+                "status": "active",
+                "first_name": "Tymoteusz",
+                "last_name": "Gmur",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4173",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25471",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6470",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 21,
+                "position": "midfielder",
+                "published_at": "2025-07-11T09:08:00.117Z",
+                "slug": "bartlomiej-baranski-6b23b4e7-fe5b-49d5-aaec-030c1cd9b92d",
+                "status": "active",
+                "first_name": "Bartłomiej",
+                "last_name": "Barański",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "3885",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25472",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6354",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 33,
+                "position": "goalkeeper",
+                "published_at": "2025-06-16T13:32:03.458Z",
+                "slug": "mateusz-pruchniewski-2e9024c7-1eeb-4660-8a58-ea0cf918ea43",
+                "status": "active",
+                "first_name": "Mateusz",
+                "last_name": "Pruchniewski",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "3877",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25454",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6353",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 8,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.450Z",
+                "slug": "ali-gholizadeh-970e62e0-bb1a-46ee-af1b-cf1c54d221b1",
+                "status": "active",
+                "first_name": "Ali",
+                "last_name": "Gholizadeh",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "3945",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25473",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6351",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 24,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.434Z",
+                "slug": "filip-jagiello",
+                "status": "active",
+                "first_name": "Filip",
+                "last_name": "Jagiełło",
+                "short_name": ""
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4223",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25474",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6364",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 53,
+                "position": "midfielder",
+                "published_at": "2025-06-16T13:32:03.527Z",
+                "slug": "sammy-dudek-103dc7b4-cc17-4d3c-ac07-a508c33a4d68",
+                "status": "active",
+                "first_name": "Sammy",
+                "last_name": "Dudek",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4271",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25475",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6472",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": false,
+                "likes_count": 0,
+                "number": 14,
+                "position": "midfielder",
+                "published_at": "2025-07-11T12:25:00.102Z",
+                "slug": "leo-bengtsson",
+                "status": "active",
+                "first_name": "Leo",
+                "last_name": "Bengtsson",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4432",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "25476",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "6615",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 6,
+                "position": "midfielder",
+                "published_at": "2025-07-21T13:37:00.158Z",
+                "slug": "timothy-ouma",
+                "status": "active",
+                "first_name": "Timothy",
+                "last_name": "Ouma",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4503",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "32127",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9837",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 77,
+                "position": "midfielder",
+                "published_at": "2025-07-25T09:53:00.161Z",
+                "slug": "luis-palma",
+                "status": "active",
+                "first_name": "Luis",
+                "last_name": "Palma",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "6023",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "32128",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9847",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 99,
+                "position": "midfielder",
+                "published_at": "2025-08-02T18:11:00.063Z",
+                "slug": "pablo-rodriguez-delgado",
+                "status": "active",
+                "first_name": "Pablo",
+                "last_name": "Rodriguez",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "6030",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "32364",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9935",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": true,
+                "likes_count": 0,
+                "number": 54,
+                "position": "striker",
+                "published_at": "2025-08-31T15:26:00.159Z",
+                "slug": "kamil-jakobczyk-81d51aba-4d93-469b-bbdb-c97d47e6b59f",
+                "status": "active",
+                "first_name": "Kamil",
+                "last_name": "Jakóbczyk",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "6089",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "33224",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9945",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 88,
+                "position": "midfielder",
+                "published_at": "2025-09-02T14:24:00.069Z",
+                "slug": "taofeek-ismaheel-dbf97f31-cc33-49af-a4de-eae731abc3b8",
+                "status": "active",
+                "first_name": "Taofeek",
+                "last_name": "Ismaheel",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "4195",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "33173",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9966",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 7,
+                "position": "striker",
+                "published_at": "2025-09-12T18:26:00.763Z",
+                "slug": "mel-yannick-joel-agnero",
+                "status": "active",
+                "first_name": "Yannick",
+                "last_name": "Agnero",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "6114",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": {
+                        "id": "33172",
+                        "type": "image"
+                    }
+                }
+            }
+        },
+        {
+            "id": "10000",
+            "type": "squad_player",
+            "attributes": {
+                "is_youth": null,
+                "likes_count": 0,
+                "number": 90,
+                "position": "midfielder",
+                "published_at": "2025-11-23T13:41:00.115Z",
+                "slug": "hubert-janyszka",
+                "status": "active",
+                "first_name": "Hubert",
+                "last_name": "Janyszka",
+                "short_name": null
+            },
+            "relationships": {
+                "player": {
+                    "data": {
+                        "id": "6143",
+                        "type": "player"
+                    }
+                },
+                "squad": {
+                    "data": {
+                        "id": "204",
+                        "type": "squad"
+                    }
+                },
+                "image": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "id": "25465",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13731_Daniel_Hakans.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13731_Daniel_Hakans.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTM3MzFfRGFuaWVsX0hha2Fucy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4210",
+            "type": "player",
+            "attributes": {
+                "country_code": "FIN",
+                "date_of_birth": "2000-10-26",
+                "facebook_url": null,
+                "first_name": "Daniel",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Hakans",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25465",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "204",
+            "type": "squad",
+            "attributes": {
+                "slug": "lech-poznan-2025-2026-sezon-2025-2026",
+                "squad_players_count": 34,
+                "club_code": "LPO",
+                "club_name": "Lech Poznań"
+            },
+            "relationships": {
+                "season": {
+                    "data": {
+                        "id": "133",
+                        "type": "season"
+                    }
+                },
+                "team": {
+                    "data": {
+                        "id": "1",
+                        "type": "team"
+                    }
+                },
+                "club_image": {
+                    "data": {
+                        "id": "4037",
+                        "type": "image"
+                    }
+                },
+                "image": {
+                    "data": null
+                },
+                "squad_players": {
+                    "data": [
+                        {
+                            "id": "6363",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6531",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6468",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6347",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6346",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6362",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6350",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6341",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6360",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6343",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6345",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6356",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6355",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6359",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6369",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6368",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6461",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6370",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6372",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6365",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6371",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6470",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6354",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6353",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6351",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6364",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6472",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "6615",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "9837",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "9847",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "9935",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "9945",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "9966",
+                            "type": "squad_player"
+                        },
+                        {
+                            "id": "10000",
+                            "type": "squad_player"
+                        }
+                    ]
+                },
+                "squad_staff_members": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "25456",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13624_Joao_Moutinho.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13624_Joao_Moutinho.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTM2MjRfSm9hb19Nb3V0aW5oby5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4167",
+            "type": "player",
+            "attributes": {
+                "country_code": "PRT",
+                "date_of_birth": "1998-01-12",
+                "facebook_url": null,
+                "first_name": "Joao",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Moutinho",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25456",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25457",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_11314_Robert_Gumny.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_11314_Robert_Gumny.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjJfMTEzMTRfUm9iZXJ0X0d1bW55LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4431",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "1998-06-04",
+                "facebook_url": null,
+                "first_name": "Robert",
+                "height": 182,
+                "instagram_url": null,
+                "last_name": "Gumny",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": 71
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25457",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25452",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_11664_Bartosz_Mrozek.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_11664_Bartosz_Mrozek.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTE2NjRfQmFydG9zel9Ncm96ZWsucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "624",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2000-02-23",
+                "facebook_url": null,
+                "first_name": "Bartosz",
+                "height": 190,
+                "instagram_url": null,
+                "last_name": "Mrozek",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25452",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25458",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12789_Joel_Pereira.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12789_Joel_Pereira.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTI3ODlfSm9lbF9QZXJlaXJhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "37",
+            "type": "player",
+            "attributes": {
+                "country_code": "PRT",
+                "date_of_birth": "1996-09-28",
+                "facebook_url": null,
+                "first_name": "Joel",
+                "height": 178,
+                "instagram_url": null,
+                "last_name": "Pereira",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": 62
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25458",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25460",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13557_Alex_Douglas.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13557_Alex_Douglas.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTM1NTdfQWxleF9Eb3VnbGFzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4035",
+            "type": "player",
+            "attributes": {
+                "country_code": "SWE",
+                "date_of_birth": "2001-08-17",
+                "facebook_url": null,
+                "first_name": "Alex",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Douglas",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25460",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "33049",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1722599984_placeholder_player__1_.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1722599984_placeholder_player__1_.png",
+                        "meta": {
+                            "width": 400,
+                            "height": 400,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3MjI1OTk5ODRfcGxhY2Vob2xkZXJfcGxheWVyX18xXy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 400,
+                            "height": 400,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "1486",
+            "type": "player",
+            "attributes": {
+                "country_code": "PRT",
+                "date_of_birth": "2000-05-03",
+                "facebook_url": null,
+                "first_name": "Afonso",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Sousa",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "33049",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25467",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13751_Patrik_Walemark.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13751_Patrik_Walemark.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjJfMTM3NTFfUGF0cmlrX1dhbGVtYXJrLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4234",
+            "type": "player",
+            "attributes": {
+                "country_code": "SWE",
+                "date_of_birth": "2001-10-14",
+                "facebook_url": null,
+                "first_name": "Patrik",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Walemark",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25467",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25468",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13782_Gisli_Thordarson.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13782_Gisli_Thordarson.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjJfMTM3ODJfR2lzbGlfVGhvcmRhcnNvbi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4272",
+            "type": "player",
+            "attributes": {
+                "country_code": "ISL",
+                "date_of_birth": "2004-09-12",
+                "facebook_url": null,
+                "first_name": "Gisli",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Thordarson",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25468",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25469",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13467_Kornel_Lisman.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13467_Kornel_Lisman.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTM0NjdfS29ybmVsX0xpc21hbi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4028",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2006-02-20",
+                "facebook_url": null,
+                "first_name": "Kornel",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Lisman",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25469",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25470",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12650_Antoni_Kozubal.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12650_Antoni_Kozubal.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTI2NTBfQW50b25pX0tvenViYWwucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "599",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2004-08-18",
+                "facebook_url": null,
+                "first_name": "Antoni",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Kozubal",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25470",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25477",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825664_12504_Mikael_Ishak.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825664_12504_Mikael_Ishak.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjRfMTI1MDRfTWlrYWVsX0lzaGFrLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "27",
+            "type": "player",
+            "attributes": {
+                "country_code": "SWE",
+                "date_of_birth": "1993-03-31",
+                "facebook_url": "http://www.facebook.com/MikaelIshak16",
+                "first_name": "Mikael",
+                "height": 184,
+                "instagram_url": null,
+                "last_name": "Ishak",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": 80
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25477",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25478",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13558_Bryan_Fiabema.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13558_Bryan_Fiabema.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjJfMTM1NThfQnJ5YW5fRmlhYmVtYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4155",
+            "type": "player",
+            "attributes": {
+                "country_code": "NOR",
+                "date_of_birth": "2003-02-16",
+                "facebook_url": null,
+                "first_name": "Bryan",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Fiabema",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25478",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "33087",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1754041406_wyrejestrowany.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1754041406_wyrejestrowany.png",
+                        "meta": {
+                            "width": 400,
+                            "height": 400,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTQwNDE0MDZfd3lyZWplc3Ryb3dhbnkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 400,
+                            "height": 400,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "1292",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2002-05-06",
+                "facebook_url": null,
+                "first_name": "Filip",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Szymczak",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "33087",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25143",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1721379175_8932_Radoslaw_Murawski.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1721379175_8932_Radoslaw_Murawski.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3MjEzNzkxNzVfODkzMl9SYWRvc2xhd19NdXJhd3NraS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "31",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "1994-04-22",
+                "facebook_url": null,
+                "first_name": "Radosław",
+                "height": 173,
+                "instagram_url": null,
+                "last_name": "Murawski",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": 68
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25143",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25453",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_12210_Krzysztof_Bakowski.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_12210_Krzysztof_Bakowski.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTIyMTBfS3J6eXN6dG9mX0Jha293c2tpLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "1198",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2003-01-04",
+                "facebook_url": null,
+                "first_name": "Krzysztof",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Bąkowski",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25453",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25455",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12209_Mateusz_Skrzypczak.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12209_Mateusz_Skrzypczak.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTIyMDlfTWF0ZXVzel9Ta3J6eXBjemFrLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "582",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2000-08-22",
+                "facebook_url": null,
+                "first_name": "Mateusz",
+                "height": 186,
+                "instagram_url": null,
+                "last_name": "Skrzypczak",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25455",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25462",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12648_Antonio_Milic.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_12648_Antonio_Milic.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTI2NDhfQW50b25pb19NaWxpYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "24",
+            "type": "player",
+            "attributes": {
+                "country_code": "HRV",
+                "date_of_birth": "1994-10-03",
+                "facebook_url": null,
+                "first_name": "Antonio",
+                "height": 190,
+                "instagram_url": "https://www.instagram.com/a.milic4444/",
+                "last_name": "Milić",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": 81
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25462",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25463",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13101_Michal_Gurgul.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13101_Michal_Gurgul.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTMxMDFfTWljaGFsX0d1cmd1bC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "2543",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2006-01-30",
+                "facebook_url": null,
+                "first_name": "Michał",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Gurgul",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25463",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25464",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13535_Wojciech_Monka.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13535_Wojciech_Monka.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTM1MzVfV29qY2llY2hfTW9ua2EucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4064",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2007-01-18",
+                "facebook_url": null,
+                "first_name": "Wojciech",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Mońka",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25464",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25471",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13577_Tymoteusz_Gmur.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13577_Tymoteusz_Gmur.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTM1NzdfVHltb3RldXN6X0dtdXIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4173",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2008-01-02",
+                "facebook_url": null,
+                "first_name": "Tymoteusz",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Gmur",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25471",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25472",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13871_Bartlomiej_Baranski.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13871_Bartlomiej_Baranski.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTM4NzFfQmFydGxvbWllal9CYXJhbnNraS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "3885",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2006-10-09",
+                "facebook_url": null,
+                "first_name": "Bartłomiej",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Barański",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25472",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25454",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13212_Mateusz_Pruchniewski.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13212_Mateusz_Pruchniewski.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTMyMTJfTWF0ZXVzel9QcnVjaG5pZXdza2kucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "3877",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2007-02-15",
+                "facebook_url": null,
+                "first_name": "Mateusz",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Pruchniewski",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25454",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25473",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13297_Ali_Gholizadeh.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825663_13297_Ali_Gholizadeh.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjNfMTMyOTdfQWxpX0dob2xpemFkZWgucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "3945",
+            "type": "player",
+            "attributes": {
+                "country_code": "IRN",
+                "date_of_birth": "1996-03-10",
+                "facebook_url": null,
+                "first_name": "Ali",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Gholizadeh",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25473",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25474",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825664_9365_Filip_Jagiello.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825664_9365_Filip_Jagiello.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjRfOTM2NV9GaWxpcF9KYWdpZWxsby5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4223",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "1997-08-08",
+                "facebook_url": null,
+                "first_name": "Filip",
+                "height": 180,
+                "instagram_url": null,
+                "last_name": "Jagiełło",
+                "short_name": "",
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": 70
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25474",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25475",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13786_Sammy_Dudek.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825661_13786_Sammy_Dudek.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjFfMTM3ODZfU2FtbXlfRHVkZWsucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4271",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2008-04-18",
+                "facebook_url": null,
+                "first_name": "Sammy",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Dudek",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25475",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "25476",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13870_Leo_Bengtsson.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1752825662_13870_Leo_Bengtsson.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTI4MjU2NjJfMTM4NzBfTGVvX0Jlbmd0c3Nvbi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4432",
+            "type": "player",
+            "attributes": {
+                "country_code": "SWE",
+                "date_of_birth": "1998-05-26",
+                "facebook_url": null,
+                "first_name": "Leo",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Bengtsson",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "25476",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "32127",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1753687614_13961_Timothy_Ouma.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1753687614_13961_Timothy_Ouma.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTM2ODc2MTRfMTM5NjFfVGltb3RoeV9PdW1hLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4503",
+            "type": "player",
+            "attributes": {
+                "country_code": "KEN",
+                "date_of_birth": "2004-06-10",
+                "facebook_url": null,
+                "first_name": "Timothy",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Ouma",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "32127",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "32128",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1753687651_13962_Luis_Palma.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1753687651_13962_Luis_Palma.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTM2ODc2NTFfMTM5NjJfTHVpc19QYWxtYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "6023",
+            "type": "player",
+            "attributes": {
+                "country_code": "HND",
+                "date_of_birth": "2000-01-17",
+                "facebook_url": null,
+                "first_name": "Luis",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Palma",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "32128",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "32364",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1753687693_13973_Pablo_Rodriguez.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1753687693_13973_Pablo_Rodriguez.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTM2ODc2OTNfMTM5NzNfUGFibG9fUm9kcmlndWV6LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "6030",
+            "type": "player",
+            "attributes": {
+                "country_code": "ESP",
+                "date_of_birth": "2001-08-04",
+                "facebook_url": null,
+                "first_name": "Pablo",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Rodriguez",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "32364",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "33224",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1758022476_13998_Kamil_Jakobczyk.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1758022476_13998_Kamil_Jakobczyk.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTgwMjI0NzZfMTM5OThfS2FtaWxfSmFrb2JjenlrLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiaGVpZ2h0IjoxOTIwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjgwfX19",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "6089",
+            "type": "player",
+            "attributes": {
+                "country_code": "POL",
+                "date_of_birth": "2007-10-23",
+                "facebook_url": null,
+                "first_name": "Kamil",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Jakóbczyk",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "33224",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "33173",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1757923171_13721_Taofeek_Ismaheel.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1757923171_13721_Taofeek_Ismaheel.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTc5MjMxNzFfMTM3MjFfVGFvZmVla19Jc21haGVlbC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE5MjAsImhlaWdodCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "4195",
+            "type": "player",
+            "attributes": {
+                "country_code": "NGA",
+                "date_of_birth": "2000-07-16",
+                "facebook_url": null,
+                "first_name": "Taofeek",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Ismaheel",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "33173",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "33172",
+            "type": "image",
+            "attributes": {
+                "author": "",
+                "path": "de5a136b-59d1-40ce-8b51-c043a004751b/1757923171_14003_Yannick_Agnero.png",
+                "variants": {
+                    "full": {
+                        "url": "https://umpire-esa-images-production.s3.eu-central-1.amazonaws.com/de5a136b-59d1-40ce-8b51-c043a004751b/1757923171_14003_Yannick_Agnero.png",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "png"
+                        }
+                    },
+                    "full_compressed": {
+                        "url": "https://d2vzq0pwftw3zc.cloudfront.net/eyJidWNrZXQiOiJ1bXBpcmUtZXNhLWltYWdlcy1wcm9kdWN0aW9uIiwia2V5IjoiZGU1YTEzNmItNTlkMS00MGNlLThiNTEtYzA0M2EwMDQ3NTFiLzE3NTc5MjMxNzFfMTQwMDNfWWFubmlja19BZ25lcm8ucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxOTIwLCJoZWlnaHQiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6ODB9fX0=",
+                        "meta": {
+                            "width": 650,
+                            "height": 891,
+                            "file_type": "webp"
+                        }
+                    }
+                }
+            },
+            "relationships": {
+                "tags": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "id": "6114",
+            "type": "player",
+            "attributes": {
+                "country_code": "CIV",
+                "date_of_birth": "2003-02-22",
+                "facebook_url": null,
+                "first_name": "Yannick",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Agnero",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": {
+                        "id": "33172",
+                        "type": "image"
+                    }
+                },
+                "career_clubs": {}
+            }
+        },
+        {
+            "id": "6143",
+            "type": "player",
+            "attributes": {
+                "country_code": null,
+                "date_of_birth": null,
+                "facebook_url": null,
+                "first_name": "Hubert",
+                "height": null,
+                "instagram_url": null,
+                "last_name": "Janyszka",
+                "short_name": null,
+                "spotify_url": null,
+                "twitter_url": null,
+                "weight": null
+            },
+            "relationships": {
+                "image": {
+                    "data": null
+                },
+                "career_clubs": {}
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "current": 1,
+            "records": 34
+        }
+    },
+    "links": {
+        "self": "https://production-umpire-api.ekstraklasa.tisagroup.ch/api/v3/squad_players?filter%5Bsquad_id_eq%5D=204&filter%5Bstatus_eq%5D=active&include=image,player,squad",
+        "current": "https://production-umpire-api.ekstraklasa.tisagroup.ch/api/v3/squad_players?filter[squad_id_eq]=204&filter[status_eq]=active&include=image,player,squad&page[number]=1"
+    }
+}
