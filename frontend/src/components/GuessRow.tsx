@@ -1,7 +1,7 @@
 type Props = {
   label: string;
   value: string | number;
-  result?: boolean | "higher" | "lower" | "equal";
+  result?: boolean | "higher" | "lower" | "equal" | "older" | "younger";
   isWin: boolean;
   wide?: boolean;
   neutral?: boolean;
@@ -14,11 +14,21 @@ function emoji(
 ) {
   if (neutral) return null;
   if (isWin) return "✅";
+
   if (result === true) return "✅";
   if (result === false) return "❌";
+
   if (result === "equal") return "🟰";
+
+  // number logic
   if (result === "higher") return "⬆️";
-  return "⬇️";
+  if (result === "lower") return "⬇️";
+
+  // age logic
+  if (result === "younger") return "⬆️"; // target is older
+  if (result === "older") return "⬇️";   // target is younger
+
+  return null;
 }
 
 function classFor(
@@ -29,6 +39,8 @@ function classFor(
   if (neutral) return "box neutral";
   if (isWin || result === true || result === "equal") return "box correct";
   if (result === false) return "box wrong";
+
+  // includes higher/lower/older/younger
   return "box close";
 }
 
