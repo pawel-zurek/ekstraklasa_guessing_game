@@ -22,6 +22,6 @@ export type Player = {
   number: number;
   position: string;
   country: string;
-  birth_year: number;
+  birth_date: string;
   photo: string;
 };

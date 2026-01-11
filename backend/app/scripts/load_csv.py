@@ -1,4 +1,5 @@
 import csv
+from datetime import datetime
 from pathlib import Path
 
 from app.core.database import SessionLocal
@@ -31,9 +32,11 @@ def load_csv():
                 ]):
                     continue
 
-                # Extract birth year only
+                # Extract birth date
                 try:
-                    birth_year = int(row["born_on"][:4])
+                    birth_date_str = row["born_on"]
+                    # Format in CSV is YYYY-MM-DD based on sample
+                    birth_date = datetime.strptime(birth_date_str, "%Y-%m-%d").date()
                 except ValueError:
                     continue
 
@@ -44,7 +47,7 @@ def load_csv():
                     number=int(row["number"]),
                     position=row["position"],
                     country=row["country"],
-                    birth_year=birth_year,
+                    birth_date=birth_date,
                     photo=row.get("photo"),
                 )
 

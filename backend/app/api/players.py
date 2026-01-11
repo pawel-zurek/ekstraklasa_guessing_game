@@ -39,7 +39,7 @@ def search_players(q: str, db: Session = Depends(get_db)):
             "number": p.number,
             "position": p.position,
             "country": p.country,
-            "birth_year": p.birth_year,
+            "birth_date": p.birth_date,
             "photo": p.photo,
         }
         for p in players

@@ -60,7 +60,7 @@ def make_guess(payload: GuessRequest, db: Session = Depends(get_db)):
                 "number": target.number,
                 "position": target.position,
                 "country": target.country,
-                "birth_year": target.birth_year,
+                "birth_date": target.birth_date,
                 "photo": target.photo,
             }
         }
@@ -78,7 +78,7 @@ def make_guess(payload: GuessRequest, db: Session = Depends(get_db)):
                 "number": target.number,
                 "position": target.position,
                 "country": target.country,
-                "birth_year": target.birth_year,
+                "birth_date": target.birth_date,
                 "photo": target.photo,
             }
         }

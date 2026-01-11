@@ -10,7 +10,13 @@ export default function GuessTable({ guesses }: { guesses: GuessResult[] }) {
         const p = g.guessed_player;
         const c = g.comparison;
         const isWin = g.status === "won";
-        const age = new Date().getFullYear() - p.birth_year;
+        const birthDate = new Date(p.birth_date);
+        const today = new Date();
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+        }
 
         return (
           <div

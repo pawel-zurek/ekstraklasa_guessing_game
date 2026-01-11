@@ -14,9 +14,9 @@ def compare_players(guess, target):
     else:
         comparison["number"] = "higher"
 
-    if guess.birth_year == target.birth_year:
+    if guess.birth_date == target.birth_date:
         comparison["age"] = "equal"
-    elif guess.birth_year < target.birth_year:
+    elif guess.birth_date < target.birth_date:
         comparison["age"] = "older"
     else:
         comparison["age"] = "younger"
