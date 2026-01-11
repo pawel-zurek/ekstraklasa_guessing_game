@@ -4,6 +4,7 @@ from datetime import date
 
 from app.core.database import SessionLocal
 from app.core.daily_player import get_daily_player
+from app.core.visit_counter import visit_counter
 from app.schemas.guess import GuessRequest
 from app.schemas.result import GuessResponse
 from app.utils.comparison import compare_players
@@ -22,6 +23,7 @@ def get_db():
 
 @router.get("/today")
 def game_today(db: Session = Depends(get_db)):
+    visit_counter.increment()
     player = get_daily_player(db)
 
     return {

@@ -4,8 +4,16 @@ from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 
 from app.api import game, players
+from contextlib import asynccontextmanager
+from app.core.visit_counter import visit_counter
 
-app = FastAPI(title="Ekstraklasa Guessing Game")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    yield
+    print("Shutting down, persisting visit count...")
+    visit_counter.persist()
+
+app = FastAPI(title="Ekstraklasa Guessing Game", lifespan=lifespan)
 
 # CORS
 app.add_middleware(
