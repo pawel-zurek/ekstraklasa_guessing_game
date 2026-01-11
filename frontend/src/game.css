@@ -77,13 +77,32 @@ body {
   margin-bottom: 28px;
 }
 
+
+/* =========================
+   GUESS CONTROL ROW (Input + Info)
+========================= */
+.guess-control-row {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  /* Constrain width to align with table roughly */
+  margin: 0 auto 20px auto;
+}
+
 .guess-input-wrapper {
   position: relative;
-  width: 420px;
+  width: 100%;
+  max-width: 480px;
+  /* Increased from 420px to prevent squishing */
 }
 
 .guess-input {
-  width: 100%;
+  flex: 1;
+  /* Allow input to resize */
+  min-width: 0;
+  /* Prevent flex overflow */
   height: 64px;
   padding: 18px 20px;
   font-size: 1.6rem;
@@ -95,13 +114,7 @@ body {
   font-family: inherit;
 }
 
-.guess-input::placeholder {
-  color: #aaa;
-}
-
-.guess-input:focus {
-  border-color: var(--blue);
-}
+/* ... placeholder and focus ... */
 
 /* =========================
    AUTOCOMPLETE
@@ -316,6 +329,63 @@ body {
   100% {
     transform: scale(1);
   }
+}
+
+
+/* =========================
+   GUESS CONTROL ROW (Input + Info)
+========================= */
+
+/* =========================
+   INFO BUTTON
+========================= */
+.info-button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* Aligns to right edge of container */
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: help;
+}
+
+.info-icon {
+  width: 48px;
+  height: 48px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.info-icon:hover {
+  opacity: 1;
+}
+
+.info-tooltip {
+  visibility: hidden;
+  width: 300px;
+  background-color: #feca57;
+  color: black;
+  text-align: left;
+  border-radius: 6px;
+  padding: 16px;
+  position: absolute;
+  z-index: 1000;
+  top: 110%;
+  /* Position below */
+  right: 0;
+  box-shadow: 4px 4px 0 #000;
+  white-space: pre-wrap;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.info-button-container:hover .info-tooltip {
+  visibility: visible;
+  opacity: 1;
 }
 
 .pulse {
