@@ -49,7 +49,14 @@ export default function GamePage() {
 
   return (
     <div className="game-page">
-      <h1 className="title">Ekstraklasa Guessing Game</h1>
+      <div className="header-row">
+        <img
+          src="http://localhost:8000/photos/logo.png"
+          alt="Logo"
+          className="logo"
+        />
+        <h1 className="title">Ekstraklasa Guessing Game</h1>
+      </div>
 
       <GuessInput
         onGuess={handleGuess}
